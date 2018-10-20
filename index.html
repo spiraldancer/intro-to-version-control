@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
   <head>
 		<meta charset="utf-8">
 
@@ -63,7 +63,7 @@
           <h3>If it seems hard, it's because it is</h3>
           <p class="fragment">A Google engineer, speaking to an audience of Google engineers, once described the newly invented Git as:</p>
           <br>
-          <blockquote  class="fragment">"a version control system which is expressly designed to make you feel less intelligent" 
+          <blockquote  class="fragment">"a version control system which is expressly designed to make you feel less intelligent"
             (<a href="https://youtu.be/4XpnKHJAok8" target="_blank">source</a>)
           </blockquote>
           <br>
@@ -200,7 +200,7 @@ ResumeREALLYREALLYNEW.docx</code></pre>
          <!-- Installation and Setup
          <section>
           <h3>Installation and Setup</h3>
-          
+
             <p><a href = "http://git-scm.com/downloads" alt ="Download latest version of Git" target ="_blank">Install Git</a></p>
             <img src = "images/install-git.png" alt = "Download latest version of Git"/>
           <p><a href="https://help.github.com/articles/set-up-git/">Setup steps on GitHub</a></p>
@@ -240,12 +240,12 @@ ResumeREALLYREALLYNEW.docx</code></pre>
             <li>Distributed version control system</li>
             <li>Originally developed to manage Linux source code</li>
             <li>Use it from the command line</li>
-        </ul> 
+        </ul>
         </section>
         <!-- Git-->
         <section>
             <h3>Why Use Git?</h3>
-  
+
             <ul>
               <li><span class="green">Fast!</span> Access information quickly and efficiently.</li>
               <li><span class="green">Distributed!</span> Everyone has her own local copy.</li>
@@ -405,7 +405,7 @@ $ git status</code></pre>
               <pre><code class="command-line">$ touch kitten.txt</code></pre>
             </li>
             <li>Check the status of your repo with <code class="inline">git status</code>
-              <pre><code class="command-line">$ git status</code></pre>              
+              <pre><code class="command-line">$ git status</code></pre>
             </li>
           </ol>
         </section>
@@ -422,7 +422,7 @@ $ git status</code></pre>
               <pre><code class="command-line">$ git add kitten.txt</code></pre>
             </li>
             <li>Check the status of your repo with <code class="inline">git status</code>
-              <pre><code class="command-line">$ git status</code></pre>              
+              <pre><code class="command-line">$ git status</code></pre>
             </li>
           </ol>
         </section>
@@ -439,7 +439,7 @@ $ git status</code></pre>
               <pre><code class="command-line">$ git status</code></pre>
             </li>
             <li>Commit the change with a message that explains and describes what changes you made.</code>
-              <pre><code class="command-line">$ git commit -m "Add kitten.txt to repository"</code></pre>              
+              <pre><code class="command-line">$ git commit -m "Add kitten.txt to repository"</code></pre>
             </li>
           </ol>
         </section>
@@ -476,7 +476,7 @@ $ git status</code></pre>
             <p>Git’s default text editor is vim, and you may sometimes <a href="https://code.likeagirl.io/help-i-was-using-git-to-commit-some-code-and-now-the-window-has-changed-and-i-dont-know-what-s-9348a27e145b">find yourself in there accidentally</a>. <br>
             <img src="https://i.stack.imgur.com/HGVi8.png ">
             </section>
-              
+
           <section>
             <h2>Exiting Vim</h2>
             <p>Here are some basic commands:</p>
@@ -488,7 +488,7 @@ $ git status</code></pre>
           </ul>
           <a href="https://youtu.be/KIbZSI2fwdM">How to exit Vim (a video)</a>
           </section>
-     
+
 
         <section>
           <h3>Look at your progress</h3>
@@ -541,12 +541,12 @@ $ git commit -m "Add capitalization function for header text"
             <li><code class="inline">git log</code>: see your commits so far</li>
           </ul>
         </section>
-    
+
         <section>
           <h2>Commit Exercise - Do It Yourself!</h2>
           <a href="./commit_exercise.html" target="_blank">Click here for the exercise!</a>
         </section>
-       
+
         <!-- Undoing changes -->
         <section>
           <h2>Reverting Changes</h3>
@@ -665,9 +665,9 @@ $ git status</code></pre>
           <h3>Branching - Do it with me!</h3>
           <p>Create a new branch called feature</p>
           <pre><code class="command-line">
-$ git branch 
+$ git branch
 // you should see only * master
-$ git -b checkout feature
+$ git checkout -b feature
 $ git branch
 // you should see * feature and master
           </code></pre>
@@ -677,7 +677,7 @@ $ git branch
           <h3>Okay, let's break that down</h3>
           <ul>
             <li><code class="inline">git branch</code>: tells you what branches you have, and <code class="inline">*</code> indicates which branch you are currently on</li>
-            <li><code class="inline">git -b checkout branch-name</code>: the <code class="inline">-b</code> creates a new branch, and <code class="inline">checkout</code> will hop you over to that branch</li>
+            <li><code class="inline">git checkout -b branch-name</code>: the <code class="inline">-b</code> creates a new branch, and <code class="inline">checkout</code> will hop you over to that branch</li>
           </ul>
         </section>
 
@@ -747,7 +747,7 @@ $ git branch -d feature-branch
               <li><code class ="inline">git branch </code>: lists all your branches</li>
             <li><code class ="inline">git branch <em>branch_name</em></code>: creates a new branch</li>
             <li><code class ="inline">git checkout <em>branch_name</em></code>: switch to another branch</li>
-            <li><code class ="inline">git -b checkout <em>branch_name</em></code>: creates a new branch and hops over to it</li>
+            <li><code class ="inline">git checkout -b <em>branch_name</em></code>: creates a new branch and hops over to it</li>
             <li><code class ="inline">git merge <em>branch_name</em></code>: merges branch into the current branch</li>
             <li><code class ="inline">git branch -d branch_name</code>: deletes branch</li>
         </section>
@@ -782,10 +782,10 @@ $ git branch -d feature-branch
             <li>merge</li>
           </ul>
         </section>
-          
+
         <section>
           <h2>Questions?</h2>
-          <a href="https://xkcd.com/1597/" class="image"><img src = "https://imgs.xkcd.com/comics/git.png" alt = "Git comic on XKCD"/></a>          
+          <a href="https://xkcd.com/1597/" class="image"><img src = "https://imgs.xkcd.com/comics/git.png" alt = "Git comic on XKCD"/></a>
         </section>
 
 
